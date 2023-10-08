@@ -71,11 +71,24 @@ Admins can:
 
    ```bash
    git clone https://github.com/yourusername/hall-management-system.git
+   ```
+2. Move to the Project Directory:
+   ```bash
    cd hms1
+   ```
+3. Install Project requirements:
+   ```bash
    pip install -r requirements.txt
+   ```
+4. Migrate:
+   ```bash
    py manage.py makemigrations
    py manage.py migrate
+   ```
+5. Start the application:
+   ```bash
    py manage.py runserver
+   ```
 
 ## Usage
 
